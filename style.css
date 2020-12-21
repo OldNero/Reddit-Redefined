@@ -1,0 +1,294 @@
+/*Font variables*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+/* Paddings variables */
+/* One Rule to Center Them All,  and in the divs bind them! */
+/*************************/
+/*************************/
+/* The style of the site */
+/*************************/
+/*************************/
+* {
+  font-family: "OpenSans";
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.side, .footer-parent, .listing-chooser, #chat-app, .debuginfo, #header-bottom-right, .dropdown.srdrop, .linkflairlabel, .domain, .duration-overlay, .rank, .separator, .drop-choices, #jumpToContent, #redesign-beta-optin-btn, .dislikes, .likes {
+  display: none;
+}
+
+#header {
+  height: 230px;
+  width: auto;
+  background-image: url("https://preview.redd.it/rm7kghhjubh31.jpg?width=2400&format=pjpg&auto=webp&s=dc9f381077ab65e15b24c6258aa2564b3d2c5c9f");
+  background-size: cover;
+}
+
+#sr-header-area {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#sr-more-link {
+  position: absolute;
+  top: 555px;
+  left: 13.5%;
+}
+
+.sr-list {
+  background: white;
+  width: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 318px;
+  left: 3%;
+  border-radius: 5px;
+}
+
+.sr-list ul {
+  width: 12vw;
+  position: relative;
+  left: -14px;
+}
+
+.sr-list ul li {
+  margin-top: 5px;
+}
+
+.sr-list ul li a {
+  width: 100%;
+  display: block;
+  padding: 8px 12px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.flat-list.sr-bar.hover:nth-child(1) {
+  position: relative;
+  top: 0;
+  left: -14px !important;
+}
+
+.tabmenu {
+  width: 53.7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.tabmenu li {
+  padding: 4px 8px;
+}
+
+.tabmenu li a {
+  color: #c51717;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.tabmenu li a:hover {
+  background-color: #f6b2b2;
+}
+
+/* Reddit name and Subreddit name */
+.hover.pagename.redditname, #header-img {
+  position: absolute;
+  top: 28%;
+  left: 3%;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+#header-img {
+  background-image: url("https://logodownload.org/wp-content/uploads/2018/02/reddit-logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+
+.hover.pagename.redditname {
+  margin-left: 135px;
+  font-size: 20px;
+}
+
+.content {
+  width: 55vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px auto;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* Awards icons */
+img.awarding-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.link {
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+.arrow.up, .arrow.down {
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.arrow.up {
+  background-image: url("https://1.bp.blogspot.com/-IYIci_ZLHTo/XLtKspnbQnI/AAAAAAAADn8/4h1zJor9aMcT683HVwf3okx5x8AvQnj-QCLcBGAs/s1600/facebook.png");
+  background-size: 201%;
+  background-position: 0px -8px;
+}
+
+.arrow.down {
+  background-image: url("https://1.bp.blogspot.com/-IYIci_ZLHTo/XLtKspnbQnI/AAAAAAAADn8/4h1zJor9aMcT683HVwf3okx5x8AvQnj-QCLcBGAs/s1600/facebook.png");
+  background-size: 201%;
+  background-position: 40px 45px;
+}
+
+.score {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.top-matter {
+  width: 40vw;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.link .thumbnail img {
+  width: 150px;
+  height: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px !important;
+}
+
+.link, .flat-list.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flrx-direction: row;
+}
+
+.title {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.link:hover .title {
+  white-space: initial;
+}
+
+.flat-list {
+  padding: 0 !important;
+}
+
+.tagline.big-tagline, .flat-list.buttons {
+  font-size: 12px;
+  margin: 5px 0 !important;
+  opacity: 0.5;
+}
+
+.tagline.big-tagline {
+  position: relative;
+  top: 10px;
+  left: 4px;
+}
+
+.flat-list.buttons {
+  position: relative;
+  top: 10px;
+}
+
+.flat-list.buttons li {
+  padding: 0 4px;
+}
+
+.flat-list.buttons li:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.domain {
+  font-size: 12px;
+  background-color: #f6b2b2;
+  padding: 4px 8px;
+  float: right;
+}
+
+.side {
+  width: 300px;
+  border: 1px solid blue;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+/*# sourceMappingURL=style.css.map */
